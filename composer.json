@@ -1,0 +1,23 @@
+{
+    "name": "margery/socialcampaign",
+    "description": "",
+    "authors": [
+        {
+            "name": "margery",
+            "email": "margery.sc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Margery\\Socialcampaign\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
